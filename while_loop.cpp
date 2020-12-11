@@ -2,7 +2,7 @@
 //
 // Created by Donggeun Lim
 // Created on December 2020
-// This program uses a nested if statement
+// This is while loop program
 
 #include <iostream>
 #include <string>
@@ -27,7 +27,7 @@ main() {
             }
             std::cout << sum;
         } else {
-            std::cout << "This year is not a leap year";
+            std::cout << "This year is negative number";
         }
     } catch (std::invalid_argument) {
         std::cout << "That was not an integer";
